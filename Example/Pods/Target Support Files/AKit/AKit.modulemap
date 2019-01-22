@@ -1,0 +1,6 @@
+framework module AKit {
+  umbrella header "AKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

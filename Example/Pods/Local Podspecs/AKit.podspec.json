@@ -1,0 +1,22 @@
+{
+  "name": "AKit",
+  "version": "0.1.0",
+  "summary": "A short description of AKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Lachtan1/AKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Lachtan1": "leitgeb.a@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/Lachtan1/AKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AKit/Classes/**/*"
+}
