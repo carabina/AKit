@@ -125,8 +125,56 @@
 		66BBB28C21F6E372007E3039 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				66BBB28D21F6E41E007E3039 /* Architecture */,
+				66BBB28E21F6E430007E3039 /* Components */,
+				66BBB28F21F6E435007E3039 /* Extensions */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		66BBB28D21F6E41E007E3039 /* Architecture */ = {
+			isa = PBXGroup;
+			children = (
+				66BBB29021F6E43F007E3039 /* Coordinator */,
+				66BBB29121F6E445007E3039 /* Service Holder */,
+			);
+			path = Architecture;
+			sourceTree = "<group>";
+		};
+		66BBB28E21F6E430007E3039 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				66BBB29221F6E459007E3039 /* Validator */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		66BBB28F21F6E435007E3039 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		66BBB29021F6E43F007E3039 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		66BBB29121F6E445007E3039 /* Service Holder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Service Holder";
+			sourceTree = "<group>";
+		};
+		66BBB29221F6E459007E3039 /* Validator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Validator;
 			sourceTree = "<group>";
 		};
 		72577318D27154FB1AB774C60C6D6FB5 /* Targets Support Files */ = {
