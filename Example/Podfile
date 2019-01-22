@@ -1,0 +1,6 @@
+use_frameworks!
+target 'AKit_Tests' do
+  pod 'AKit', :path => '../'
+  
+  
+end
