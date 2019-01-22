@@ -10,6 +10,14 @@
 		18E333587A88A9EF5567BB489E0D30D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		318CCC4380C2A0677F4238243CE101C5 /* AKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A78260DDBD13CE6DF301D6571EF85E1B /* AKit-dummy.m */; };
 		4F718DB27847708DA63E16131A6CB140 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		66BBB29B21F6E486007E3039 /* String+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BBB29321F6E486007E3039 /* String+Utilities.swift */; };
+		66BBB29C21F6E486007E3039 /* UIViewController+Plugins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BBB29421F6E486007E3039 /* UIViewController+Plugins.swift */; };
+		66BBB29D21F6E486007E3039 /* DateFormatter+Initialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BBB29521F6E486007E3039 /* DateFormatter+Initialization.swift */; };
+		66BBB29E21F6E486007E3039 /* UIViewController+Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BBB29621F6E486007E3039 /* UIViewController+Storyboard.swift */; };
+		66BBB29F21F6E486007E3039 /* UIImageView+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BBB29721F6E486007E3039 /* UIImageView+Color.swift */; };
+		66BBB2A021F6E486007E3039 /* CGPoint+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BBB29821F6E486007E3039 /* CGPoint+Frame.swift */; };
+		66BBB2A121F6E486007E3039 /* UIWindow+Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BBB29921F6E486007E3039 /* UIWindow+Blur.swift */; };
+		66BBB2A221F6E486007E3039 /* UIView+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BBB29A21F6E486007E3039 /* UIView+IB.swift */; };
 		D984D7B5E6A4BBC5FE36C8BAB4579D66 /* Pods-AKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7F20BD7215153E3015F21DE56DB551 /* Pods-AKit_Tests-dummy.m */; };
 		E4B4694F86EE1F459CC336DB18881D10 /* AKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A08E479A3A5133D74139448D372A63E /* AKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA0FB99CD08057B876C897EE00DABC3F /* Pods-AKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B5913526EE1E6E4369C1577FBD6B9C8 /* Pods-AKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -36,6 +44,14 @@
 		4FCF06F523F90FE6DA74B4AD8A0AC8BE /* AKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = AKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		50D3450DB1DE5EE980FE0706866D0228 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66BBB29321F6E486007E3039 /* String+Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Utilities.swift"; sourceTree = "<group>"; };
+		66BBB29421F6E486007E3039 /* UIViewController+Plugins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Plugins.swift"; sourceTree = "<group>"; };
+		66BBB29521F6E486007E3039 /* DateFormatter+Initialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Initialization.swift"; sourceTree = "<group>"; };
+		66BBB29621F6E486007E3039 /* UIViewController+Storyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Storyboard.swift"; sourceTree = "<group>"; };
+		66BBB29721F6E486007E3039 /* UIImageView+Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Color.swift"; sourceTree = "<group>"; };
+		66BBB29821F6E486007E3039 /* CGPoint+Frame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Frame.swift"; sourceTree = "<group>"; };
+		66BBB29921F6E486007E3039 /* UIWindow+Blur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIWindow+Blur.swift"; sourceTree = "<group>"; };
+		66BBB29A21F6E486007E3039 /* UIView+IB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+IB.swift"; sourceTree = "<group>"; };
 		73C4E8C2DC7431F07B5F78C067A5B595 /* Pods-AKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AKit_Tests.modulemap"; sourceTree = "<group>"; };
 		7A08E479A3A5133D74139448D372A63E /* AKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKit-umbrella.h"; sourceTree = "<group>"; };
 		9174BF89F629D8B4A4D2E2BCBD397BFE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -152,6 +168,14 @@
 		66BBB28F21F6E435007E3039 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				66BBB29821F6E486007E3039 /* CGPoint+Frame.swift */,
+				66BBB29521F6E486007E3039 /* DateFormatter+Initialization.swift */,
+				66BBB29321F6E486007E3039 /* String+Utilities.swift */,
+				66BBB29721F6E486007E3039 /* UIImageView+Color.swift */,
+				66BBB29A21F6E486007E3039 /* UIView+IB.swift */,
+				66BBB29421F6E486007E3039 /* UIViewController+Plugins.swift */,
+				66BBB29621F6E486007E3039 /* UIViewController+Storyboard.swift */,
+				66BBB29921F6E486007E3039 /* UIWindow+Blur.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -296,6 +320,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					2DC009CD8003E2DC8B4DD406EBD36CCA = {
+						LastSwiftMigration = 1010;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -328,7 +357,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66BBB29C21F6E486007E3039 /* UIViewController+Plugins.swift in Sources */,
 				318CCC4380C2A0677F4238243CE101C5 /* AKit-dummy.m in Sources */,
+				66BBB29D21F6E486007E3039 /* DateFormatter+Initialization.swift in Sources */,
+				66BBB2A021F6E486007E3039 /* CGPoint+Frame.swift in Sources */,
+				66BBB2A121F6E486007E3039 /* UIWindow+Blur.swift in Sources */,
+				66BBB29E21F6E486007E3039 /* UIViewController+Storyboard.swift in Sources */,
+				66BBB2A221F6E486007E3039 /* UIView+IB.swift in Sources */,
+				66BBB29F21F6E486007E3039 /* UIImageView+Color.swift in Sources */,
+				66BBB29B21F6E486007E3039 /* String+Utilities.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +420,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 345EB5F9B54DF4AE8BA49D61A328A772 /* AKit.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -571,6 +609,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 345EB5F9B54DF4AE8BA49D61A328A772 /* AKit.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
