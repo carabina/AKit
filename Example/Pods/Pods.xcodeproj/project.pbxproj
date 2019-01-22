@@ -29,6 +29,8 @@
 		66BBB2B421F6E4F0007E3039 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BBB2B121F6E4F0007E3039 /* Validator.swift */; };
 		66BBB2B721F6E51F007E3039 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BBB2B521F6E51F007E3039 /* Coordinator.swift */; };
 		66BBB2B821F6E51F007E3039 /* CoordinatorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BBB2B621F6E51F007E3039 /* CoordinatorInput.swift */; };
+		66BBB2BB21F6E53D007E3039 /* ServiceHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BBB2B921F6E53D007E3039 /* ServiceHolder.swift */; };
+		66BBB2BC21F6E53D007E3039 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BBB2BA21F6E53D007E3039 /* Service.swift */; };
 		D984D7B5E6A4BBC5FE36C8BAB4579D66 /* Pods-AKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7F20BD7215153E3015F21DE56DB551 /* Pods-AKit_Tests-dummy.m */; };
 		E4B4694F86EE1F459CC336DB18881D10 /* AKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A08E479A3A5133D74139448D372A63E /* AKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA0FB99CD08057B876C897EE00DABC3F /* Pods-AKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B5913526EE1E6E4369C1577FBD6B9C8 /* Pods-AKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -74,6 +76,8 @@
 		66BBB2B121F6E4F0007E3039 /* Validator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
 		66BBB2B521F6E51F007E3039 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		66BBB2B621F6E51F007E3039 /* CoordinatorInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatorInput.swift; sourceTree = "<group>"; };
+		66BBB2B921F6E53D007E3039 /* ServiceHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceHolder.swift; sourceTree = "<group>"; };
+		66BBB2BA21F6E53D007E3039 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		73C4E8C2DC7431F07B5F78C067A5B595 /* Pods-AKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AKit_Tests.modulemap"; sourceTree = "<group>"; };
 		7A08E479A3A5133D74139448D372A63E /* AKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKit-umbrella.h"; sourceTree = "<group>"; };
 		9174BF89F629D8B4A4D2E2BCBD397BFE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -220,6 +224,8 @@
 		66BBB29121F6E445007E3039 /* Service Holder */ = {
 			isa = PBXGroup;
 			children = (
+				66BBB2BA21F6E53D007E3039 /* Service.swift */,
+				66BBB2B921F6E53D007E3039 /* ServiceHolder.swift */,
 			);
 			path = "Service Holder";
 			sourceTree = "<group>";
@@ -395,6 +401,7 @@
 				318CCC4380C2A0677F4238243CE101C5 /* AKit-dummy.m in Sources */,
 				66BBB2A921F6E4CF007E3039 /* OnePixelConstraint.swift in Sources */,
 				66BBB2AB21F6E4CF007E3039 /* DateFormatter+DateFormatters.swift in Sources */,
+				66BBB2BB21F6E53D007E3039 /* ServiceHolder.swift in Sources */,
 				66BBB29D21F6E486007E3039 /* DateFormatter+Initialization.swift in Sources */,
 				66BBB2B721F6E51F007E3039 /* Coordinator.swift in Sources */,
 				66BBB2AE21F6E4CF007E3039 /* PluginViewController.swift in Sources */,
@@ -408,6 +415,7 @@
 				66BBB29F21F6E486007E3039 /* UIImageView+Color.swift in Sources */,
 				66BBB2AD21F6E4CF007E3039 /* UIAlertAction+Actions.swift in Sources */,
 				66BBB2B821F6E51F007E3039 /* CoordinatorInput.swift in Sources */,
+				66BBB2BC21F6E53D007E3039 /* Service.swift in Sources */,
 				66BBB29B21F6E486007E3039 /* String+Utilities.swift in Sources */,
 				66BBB2B221F6E4F0007E3039 /* Validator+Errors.swift in Sources */,
 			);
